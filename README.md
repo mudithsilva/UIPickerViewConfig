@@ -28,6 +28,7 @@ Connect UIPickerView Delegate and DataSource
         self.status.inputView = self.statusPicker
         self.statusPicker.delegate = self
         self.statusPicker.dataSource = self
+        self.statusPicker.autoresizingMask = [.flexibleWidth,.flexibleHeight]
     }
 
 ```
